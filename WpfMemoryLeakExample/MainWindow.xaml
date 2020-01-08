@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfMemoryLeakExample"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="RAM Leak" Background="Black" Height="146.438" Width="250" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Topmost="True">
     <Grid>
-        
+        <Button Content="Start" FontSize="25" Foreground="Green" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center" Width="224" Click="ButtonStart_OnClick" Height="46" Margin="10,10,10,61"/>
+        <Button Content="Stop" FontSize="25" Foreground="Red" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center" Width="224" Click="ButtonStop_OnClick" Height="46" Margin="10,61,10,10"/>
     </Grid>
 </Window>
